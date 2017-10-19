@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D88734C1F8CD2A6002BEB17 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D88734B1F8CD2A6002BEB17 /* ARViewController.m */; };
+		7DB539841F8C563500E74258 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB539831F8C563500E74258 /* AppDelegate.m */; };
+		7DB539861F8C563500E74258 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB539851F8C563500E74258 /* art.scnassets */; };
+		7DB539891F8C563500E74258 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB539881F8C563500E74258 /* ViewController.m */; };
+		7DB5398C1F8C563500E74258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB5398A1F8C563500E74258 /* Main.storyboard */; };
+		7DB5398E1F8C563500E74258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB5398D1F8C563500E74258 /* Assets.xcassets */; };
+		7DB539911F8C563500E74258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB5398F1F8C563500E74258 /* LaunchScreen.storyboard */; };
+		7DB539941F8C563500E74258 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB539931F8C563500E74258 /* main.m */; };
+		7DB5399E1F8C563600E74258 /* Next_Reality_ViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5399D1F8C563600E74258 /* Next_Reality_ViewerTests.m */; };
+		7DB539A91F8C563600E74258 /* Next_Reality_ViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB539A81F8C563600E74258 /* Next_Reality_ViewerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DB5399A1F8C563600E74258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DB539771F8C563500E74258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB5397E1F8C563500E74258;
+			remoteInfo = "Next Reality Viewer";
+		};
+		7DB539A51F8C563600E74258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DB539771F8C563500E74258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB5397E1F8C563500E74258;
+			remoteInfo = "Next Reality Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D88734A1F8CD2A6002BEB17 /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		7D88734B1F8CD2A6002BEB17 /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		7DB5397F1F8C563500E74258 /* AR Distance Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Distance Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB539821F8C563500E74258 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DB539831F8C563500E74258 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DB539851F8C563500E74258 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		7DB539871F8C563500E74258 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DB539881F8C563500E74258 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DB5398B1F8C563500E74258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DB5398D1F8C563500E74258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DB539901F8C563500E74258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DB539921F8C563500E74258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB539931F8C563500E74258 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DB539991F8C563600E74258 /* AR Distance CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR Distance CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB5399D1F8C563600E74258 /* Next_Reality_ViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Next_Reality_ViewerTests.m; sourceTree = "<group>"; };
+		7DB5399F1F8C563600E74258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB539A41F8C563600E74258 /* AR Distance CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR Distance CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB539A81F8C563600E74258 /* Next_Reality_ViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Next_Reality_ViewerUITests.m; sourceTree = "<group>"; };
+		7DB539AA1F8C563600E74258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DB5397C1F8C563500E74258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB539961F8C563600E74258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB539A11F8C563600E74258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB539761F8C563500E74258 = {
+			isa = PBXGroup;
+			children = (
+				7DB539811F8C563500E74258 /* AR Distance Calculator */,
+				7DB5399C1F8C563600E74258 /* AR Distance CalculatorTests */,
+				7DB539A71F8C563600E74258 /* AR Distance Calculator Tests */,
+				7DB539801F8C563500E74258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DB539801F8C563500E74258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5397F1F8C563500E74258 /* AR Distance Calculator.app */,
+				7DB539991F8C563600E74258 /* AR Distance CalculatorTests.xctest */,
+				7DB539A41F8C563600E74258 /* AR Distance CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB539811F8C563500E74258 /* AR Distance Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				7DB539821F8C563500E74258 /* AppDelegate.h */,
+				7DB539831F8C563500E74258 /* AppDelegate.m */,
+				7DB539851F8C563500E74258 /* art.scnassets */,
+				7DB539871F8C563500E74258 /* ViewController.h */,
+				7DB539881F8C563500E74258 /* ViewController.m */,
+				7D88734A1F8CD2A6002BEB17 /* ARViewController.h */,
+				7D88734B1F8CD2A6002BEB17 /* ARViewController.m */,
+				7DB5398A1F8C563500E74258 /* Main.storyboard */,
+				7DB5398D1F8C563500E74258 /* Assets.xcassets */,
+				7DB5398F1F8C563500E74258 /* LaunchScreen.storyboard */,
+				7DB539921F8C563500E74258 /* Info.plist */,
+				7DB539931F8C563500E74258 /* main.m */,
+			);
+			path = "AR Distance Calculator";
+			sourceTree = "<group>";
+		};
+		7DB5399C1F8C563600E74258 /* AR Distance CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DB5399D1F8C563600E74258 /* Next_Reality_ViewerTests.m */,
+				7DB5399F1F8C563600E74258 /* Info.plist */,
+			);
+			path = "AR Distance CalculatorTests";
+			sourceTree = "<group>";
+		};
+		7DB539A71F8C563600E74258 /* AR Distance Calculator Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7DB539A81F8C563600E74258 /* Next_Reality_ViewerUITests.m */,
+				7DB539AA1F8C563600E74258 /* Info.plist */,
+			);
+			path = "AR Distance Calculator Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DB5397E1F8C563500E74258 /* AR Distance Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB539AD1F8C563600E74258 /* Build configuration list for PBXNativeTarget "AR Distance Calculator" */;
+			buildPhases = (
+				7DB5397B1F8C563500E74258 /* Sources */,
+				7DB5397C1F8C563500E74258 /* Frameworks */,
+				7DB5397D1F8C563500E74258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR Distance Calculator";
+			productName = "Next Reality Viewer";
+			productReference = 7DB5397F1F8C563500E74258 /* AR Distance Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DB539981F8C563600E74258 /* AR Distance CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB539B01F8C563600E74258 /* Build configuration list for PBXNativeTarget "AR Distance CalculatorTests" */;
+			buildPhases = (
+				7DB539951F8C563600E74258 /* Sources */,
+				7DB539961F8C563600E74258 /* Frameworks */,
+				7DB539971F8C563600E74258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DB5399B1F8C563600E74258 /* PBXTargetDependency */,
+			);
+			name = "AR Distance CalculatorTests";
+			productName = "Next Reality ViewerTests";
+			productReference = 7DB539991F8C563600E74258 /* AR Distance CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DB539A31F8C563600E74258 /* AR Distance CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB539B31F8C563600E74258 /* Build configuration list for PBXNativeTarget "AR Distance CalculatorUITests" */;
+			buildPhases = (
+				7DB539A01F8C563600E74258 /* Sources */,
+				7DB539A11F8C563600E74258 /* Frameworks */,
+				7DB539A21F8C563600E74258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DB539A61F8C563600E74258 /* PBXTargetDependency */,
+			);
+			name = "AR Distance CalculatorUITests";
+			productName = "Next Reality ViewerUITests";
+			productReference = 7DB539A41F8C563600E74258 /* AR Distance CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DB539771F8C563500E74258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Next Reality Viewer";
+				TargetAttributes = {
+					7DB5397E1F8C563500E74258 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					7DB539981F8C563600E74258 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7DB5397E1F8C563500E74258;
+					};
+					7DB539A31F8C563600E74258 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7DB5397E1F8C563500E74258;
+					};
+				};
+			};
+			buildConfigurationList = 7DB5397A1F8C563500E74258 /* Build configuration list for PBXProject "AR Distance Calculator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB539761F8C563500E74258;
+			productRefGroup = 7DB539801F8C563500E74258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DB5397E1F8C563500E74258 /* AR Distance Calculator */,
+				7DB539981F8C563600E74258 /* AR Distance CalculatorTests */,
+				7DB539A31F8C563600E74258 /* AR Distance CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DB5397D1F8C563500E74258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB539861F8C563500E74258 /* art.scnassets in Resources */,
+				7DB539911F8C563500E74258 /* LaunchScreen.storyboard in Resources */,
+				7DB5398E1F8C563500E74258 /* Assets.xcassets in Resources */,
+				7DB5398C1F8C563500E74258 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB539971F8C563600E74258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB539A21F8C563600E74258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DB5397B1F8C563500E74258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB539891F8C563500E74258 /* ViewController.m in Sources */,
+				7DB539941F8C563500E74258 /* main.m in Sources */,
+				7DB539841F8C563500E74258 /* AppDelegate.m in Sources */,
+				7D88734C1F8CD2A6002BEB17 /* ARViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB539951F8C563600E74258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB5399E1F8C563600E74258 /* Next_Reality_ViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB539A01F8C563600E74258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB539A91F8C563600E74258 /* Next_Reality_ViewerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DB5399B1F8C563600E74258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DB5397E1F8C563500E74258 /* AR Distance Calculator */;
+			targetProxy = 7DB5399A1F8C563600E74258 /* PBXContainerItemProxy */;
+		};
+		7DB539A61F8C563600E74258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DB5397E1F8C563500E74258 /* AR Distance Calculator */;
+			targetProxy = 7DB539A51F8C563600E74258 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DB5398A1F8C563500E74258 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB5398B1F8C563500E74258 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DB5398F1F8C563500E74258 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB539901F8C563500E74258 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DB539AB1F8C563600E74258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DB539AC1F8C563600E74258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DB539AE1F8C563600E74258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7AKP8869B;
+				INFOPLIST_FILE = "AR Distance Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Next-Reality-Viewer.Next-Reality-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DB539AF1F8C563600E74258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7AKP8869B;
+				INFOPLIST_FILE = "AR Distance Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Next-Reality-Viewer.Next-Reality-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DB539B11F8C563600E74258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7AKP8869B;
+				INFOPLIST_FILE = "Next Reality ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Next-Reality-Viewer.Next-Reality-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Distance Calculator.app/AR Distance Calculator";
+			};
+			name = Debug;
+		};
+		7DB539B21F8C563600E74258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7AKP8869B;
+				INFOPLIST_FILE = "Next Reality ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Next-Reality-Viewer.Next-Reality-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Distance Calculator.app/AR Distance Calculator";
+			};
+			name = Release;
+		};
+		7DB539B41F8C563600E74258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7AKP8869B;
+				INFOPLIST_FILE = "Next Reality ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Next-Reality-Viewer.Next-Reality-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Next Reality Viewer";
+			};
+			name = Debug;
+		};
+		7DB539B51F8C563600E74258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7AKP8869B;
+				INFOPLIST_FILE = "Next Reality ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Next-Reality-Viewer.Next-Reality-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Next Reality Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DB5397A1F8C563500E74258 /* Build configuration list for PBXProject "AR Distance Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB539AB1F8C563600E74258 /* Debug */,
+				7DB539AC1F8C563600E74258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB539AD1F8C563600E74258 /* Build configuration list for PBXNativeTarget "AR Distance Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB539AE1F8C563600E74258 /* Debug */,
+				7DB539AF1F8C563600E74258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB539B01F8C563600E74258 /* Build configuration list for PBXNativeTarget "AR Distance CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB539B11F8C563600E74258 /* Debug */,
+				7DB539B21F8C563600E74258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB539B31F8C563600E74258 /* Build configuration list for PBXNativeTarget "AR Distance CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB539B41F8C563600E74258 /* Debug */,
+				7DB539B51F8C563600E74258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DB539771F8C563500E74258 /* Project object */;
+}
